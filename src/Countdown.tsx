@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-
 const Countdown = () => {
     const [minutes, setMinutes] = useState(4);
     const [secondes, setSecondes] = useState(0);
@@ -16,7 +15,6 @@ const Countdown = () => {
           } else {
             setMinutes(4)
             setSecondes(59);
-            console.log("new loop");
           }
         }
       }, 1000);
